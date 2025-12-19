@@ -6,7 +6,7 @@ Getting this running is as simple as adding positionManager.lua to a computer an
 
 # Useage
 To call the methods in this module, you simply call the variable you created in the setup followed by a . and the method. For example `foo.MoveForward()`.
-You should avoid calling the built-in turtle movement methods such as `turtle.forward()` as these will NOT update the stored position in positionManager, which will almost certainly cause issues.
+You should avoid calling the built-in turtle movement methods such as `turtle.forward()` as these will NOT update the stored position in positionManager, which will almost certainly cause issues. However other turtle methods which do not update the position or rotation are fine, such as `turtle.dig()` and `turtle.inspect()`
 
 # Methods
 - `RotateRight()`
